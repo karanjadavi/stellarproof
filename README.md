@@ -1,22 +1,24 @@
-# Soroban Project
+# StellarProof
 
-## Project Structure
+A privacy-preserving KYC verification system built on Stellar using Zero Knowledge proofs.
 
-This repository uses the recommended structure for a Soroban project:
+## What it does
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+Users prove they meet conditions like age and nationality using Noir ZK proofs verified inside a Soroban smart contract — without revealing private data.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Tech Stack
+
+- Noir — ZK circuit for private proof generation
+- Soroban/Rust — Smart contract on Stellar
+- Stellar Testnet — Blockchain deployment
+- Next.js + TypeScript — Frontend
+
+## Contract Details
+
+- Network: Stellar Testnet
+- Contract ID: CBPFYB4FPM3TO5UQ7BTWFV56B2F5NSVUSHXZ7AI5SAI74HHEPS2REIQG
+- Explorer: https://stellar.expert/explorer/testnet/contract/CBPFYB4FPM3TO5UQ7BTWFV56B2F5NSVUSHXZ7AI5SAI74HHEPS2REIQG
+
+## Built by
+
+David Auja (@karanjadavi) — Stellar Hacks: Real-World ZK Hackathon 2026
