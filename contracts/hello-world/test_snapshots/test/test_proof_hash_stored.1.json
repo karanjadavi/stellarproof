@@ -27,7 +27,7 @@
               "ext": "v0",
               "contract": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM",
               "key": {
-                "bytes": "0101010101010101010101010101010101010101010101010101010101010101"
+                "bytes": "0303030303030303030303030303030303030303030303030303030303030303"
               },
               "durability": "persistent",
               "val": {
